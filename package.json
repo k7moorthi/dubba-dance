@@ -1,0 +1,39 @@
+{
+  "name": "dubba-dance",
+  "version": "1.0.0",
+  "description": "A gold price monitor and predictor.",
+  "keywords": [
+    "gold",
+    "price",
+    "monitor",
+    "watcher",
+    "alert",
+    "prediction",
+    "updates"
+  ],
+  "homepage": "https://github.com/k7moorthi/dubba-dance#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k7moorthi/dubba-dance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k7moorthi/dubba-dance/issues"
+  },
+  "author": {
+    "name": "Kesavamoorthi Subramanian",
+    "email": "k7moorthi@gmail.com",
+    "url": "https://k7moorthi.github.io/"
+  },
+  "license": "AGPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "watch": "node ./src/tasks/watcher.js",
+    "predict": "node ./src/tasks/predictor.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.5.0"
+  }
+}
